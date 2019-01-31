@@ -1,18 +1,15 @@
 #/usr/bin/python3
 # -*- coding:utf-8 -*-
-try:
-	from twilio.rest import TwilioRestClient
-except:
-	print "pip install twilio="
+from twilio.rest import Client
 
 import os, sys
 import time
 
 os.system('clear')
-ACCOUNT_SID = "AC1e46be9639857b6ce6ef59fa8aec2fbd"
-AUTH_TOKEN = "b0f05380496d3adc164af2ee6612dd75"
-from_ = "+14159642806"
-client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
+ACCOUNT_SID = "" # Account SID 
+AUTH_TOKEN = "" # Authentication Token
+from_ = "" # your twilio number
+client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
 global end, verde, azul, amarelo, vermelho, purpleClaro, normal, cyanClaro, W, R, G, O, B, P, C, GR
 end = '\033[0m'
@@ -122,9 +119,9 @@ _¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶"""
 
 print azul + BannerOld
 print('')
-slowprint(P+" ♚ Coded: łuŧЋ1єr ルシアー ")
+slowprint(P+" @DreadPirateRobertt")
 print('')
-Animation(" ✉ SMS - Flooder ✉  ")
+Animation("  SMS - Flooder   ")
 print('')
 
 try:
