@@ -1,6 +1,6 @@
 #/usr/bin/python3
 # -*- coding:utf-8 -*-
-from twilio.rest import Client
+from client import Client
 
 import os, sys
 import time
@@ -117,7 +117,7 @@ _¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶
 _¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶"""
 
 
-print azul + BannerOld
+print azul + Banner Old
 print('')
 slowprint(P+" @DreadPirateRobertt")
 print('')
